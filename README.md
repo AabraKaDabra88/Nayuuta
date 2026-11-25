@@ -31,26 +31,17 @@ Each page contains a full copy of the header, footer and CTA strip, so the site 
 
 The script replaces everything between `<!-- PARTIAL:name -->` and `<!-- /PARTIAL:name -->` in each page, and highlights the current page in the nav using `<body data-page="...">`. Don't edit inside those markers in the page files, because your changes will be overwritten.
 
-## Placeholders to replace
+## Before launch
 
-To find every placeholder, run `grep -rn PLACEHOLDER --include=*.html --include=*.xml --include=*.txt .`
+The site contains no placeholder content. A few things still need attention:
 
 | What | Where |
 | --- | --- |
-| Domain `https://www.example.com` | `<head>` of every page (canonical and `og:` tags), JSON-LD in `index.html`, `sitemap.xml`, `robots.txt` |
-| ~~Logo~~ (done) | `assets/images/logo.svg` for light backgrounds; `logo-light.svg` (white wordmark) is used in the dark header and footer; `favicon.svg` is the N mark |
-| Open Graph image | `assets/images/og-default.png` (1200×630) |
-| ~~Images~~ (done, except headshots) | Hero, overview, About, solution and service images are in `assets/images/*.jpg`, taken from dalhyd.com (company-owned). Several card images are only 550–610px wide; swap in larger versions when you have them. |
-| Testimonial headshots | `assets/images/placeholders/headshot-*.svg` (240×240). Use real, approved client photos only. |
-| Hero slide copy (3 slides) | `index.html` |
-| Company overview, solutions and services card copy | `index.html`, `solutions.html`, `services.html` |
-| About page copy and stats (`00+`, `000+`) | `about.html` |
-| Testimonials: all 5 quotes, names, titles and headshots are fictional | `index.html` |
-| Email addresses (`hello@`, `india@`, `singapore@example.com`) | `partials/footer.html`, `contact.html`, `privacy.html` |
-| ~~Office addresses~~ (India and Singapore done) | Singapore has no phone yet |
-| Social profile URLs (`href="#"`) | `partials/footer.html` |
-| CTA strip and footer blurb | `partials/cta.html`, `partials/footer.html` |
-| ~~Privacy policy~~ (company text added) | Confirm `www.nayuuta.com` and `privacy@nayuuta.com` in `privacy.html` |
-| Contact form submission (**TODO**) | `submitForm()` in `assets/js/main.js` |
+| **Contact form isn't connected.** It validates and shows a success message but sends nothing yet. | `submitForm()` in `assets/js/main.js` |
+| **Site address.** Canonical/OG tags, `sitemap.xml`, `robots.txt` and JSON-LD use `https://aabrakadabra88.github.io/Nayuuta/`. If you move to your own domain, find and replace that URL in all of them. | every page `<head>`, `sitemap.xml`, `robots.txt` |
+| **Review the site copy.** Hero slides, overview, card descriptions and About text were written as starter copy; check that claims fit your business. | `index.html`, `about.html`, `solutions.html`, `services.html` |
+| **Privacy policy contact.** Confirm `www.nayuuta.com` and `privacy@nayuuta.com` are correct. | `privacy.html` |
+| **Optional additions.** Emails, social profile links, a Singapore phone number and client testimonials were removed until real ones are available. | `partials/footer.html`, `contact.html`, `index.html` |
+| **Image quality.** Several card images are only 550–610px wide; swap in larger originals when available. | `assets/images/*.jpg` |
 
-The India phone number (+91 8688403181) and WhatsApp link (`wa.me/918688403181`) are real and used site-wide.
+Logo: `assets/images/logo.svg` (light backgrounds) and `logo-light.svg` (dark header/footer). Images come from dalhyd.com (company-owned). The India phone number (+91 8688403181) and WhatsApp link (`wa.me/918688403181`) are used site-wide.
