@@ -40,7 +40,8 @@ To find every placeholder, run `grep -rn PLACEHOLDER --include=*.html --include=
 | Domain `https://www.example.com` | `<head>` of every page (canonical and `og:` tags), JSON-LD in `index.html`, `sitemap.xml`, `robots.txt` |
 | ~~Logo~~ (done) | `assets/images/logo.svg` for light backgrounds; `logo-light.svg` (white wordmark) is used in the dark header and footer; `favicon.svg` is the N mark |
 | Open Graph image | `assets/images/og-default.png` (1200×630) |
-| All images | `assets/images/placeholders/*.svg`. Hero 1920×1080, overview/about 1200×900, cards 800×500, headshots 240×240. Update `alt` text when you swap them. |
+| ~~Images~~ (done, except headshots) | Hero, overview, About, solution and service images are in `assets/images/*.jpg`, taken from dalhyd.com (company-owned). Several card images are only 550–610px wide; swap in larger versions when you have them. |
+| Testimonial headshots | `assets/images/placeholders/headshot-*.svg` (240×240). Use real, approved client photos only. |
 | Hero slide copy (3 slides) | `index.html` |
 | Company overview, solutions and services card copy | `index.html`, `solutions.html`, `services.html` |
 | About page copy and stats (`00+`, `000+`) | `about.html` |
