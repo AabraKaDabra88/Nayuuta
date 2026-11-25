@@ -38,8 +38,7 @@ To find every placeholder, run `grep -rn PLACEHOLDER --include=*.html --include=
 | What | Where |
 | --- | --- |
 | Domain `https://www.example.com` | `<head>` of every page (canonical and `og:` tags), JSON-LD in `index.html`, `sitemap.xml`, `robots.txt` |
-| Logo (text "Nayuuta" + "N" mark) | `partials/header.html`, `partials/footer.html`, then sync |
-| Favicon | `assets/images/favicon.svg` |
+| ~~Logo~~ (done) | `assets/images/logo.svg` for light backgrounds; `logo-light.svg` (white wordmark) is used in the dark header and footer; `favicon.svg` is the N mark |
 | Open Graph image | `assets/images/og-default.png` (1200×630) |
 | All images | `assets/images/placeholders/*.svg`. Hero 1920×1080, overview/about 1200×900, cards 800×500, headshots 240×240. Update `alt` text when you swap them. |
 | Hero slide copy (3 slides) | `index.html` |

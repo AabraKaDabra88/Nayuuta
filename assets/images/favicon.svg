@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><!-- PLACEHOLDER favicon --><rect width="64" height="64" rx="14" fill="#c2410c"/><text x="32" y="45" font-family="system-ui, sans-serif" font-size="38" font-weight="800" fill="#fff" text-anchor="middle">N</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 15 90 90">
+  <!-- Favicon: the N mark from logo.svg -->
+  <rect x="10" y="15" width="90" height="90" rx="18" fill="#1F4E79"/>
+  <rect x="28" y="34" width="10" height="52" fill="#FFFFFF"/>
+  <polygon points="28,34 40,34 72,74 72,86 60,86 28,46" fill="#FFFFFF"/>
+  <rect x="72" y="34" width="10" height="52" fill="#FFFFFF"/>
+  <circle cx="90" cy="26" r="7" fill="#2BB3A3"/>
+</svg>
