@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <!-- PLACEHOLDER IMAGE: replace about-team with a real 1200x900 image -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e2a47"/><stop offset="1" stop-color="#c2410c"/></linearGradient>
+    <pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g)"/>
+  <rect width="1200" height="900" fill="url(#p)"/>
+  <circle cx="936" cy="270" r="252" fill="#fff" fill-opacity=".06"/>
+  <circle cx="1080" cy="675" r="162" fill="#fff" fill-opacity=".05"/>
+  <g font-family="system-ui, sans-serif" fill="#fff" text-anchor="middle">
+    <text x="600" y="410" font-size="25" font-weight="700" letter-spacing="3" fill-opacity=".7">PLACEHOLDER</text>
+    <text x="600" y="464" font-size="45" font-weight="800">About: team photo</text>
+    <text x="600" y="508" font-size="22" fill-opacity=".7">1200 × 900</text>
+  </g>
+</svg>
