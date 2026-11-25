@@ -46,8 +46,8 @@ To find every placeholder, run `grep -rn PLACEHOLDER --include=*.html --include=
 | Company overview, solutions and services card copy | `index.html`, `solutions.html`, `services.html` |
 | About page copy and stats (`00+`, `000+`) | `about.html` |
 | Testimonials: all 5 quotes, names, titles and headshots are fictional | `index.html` |
-| Email addresses (`hello@`, `india@`, `usa@`, `privacy@example.com`) | `partials/footer.html`, `contact.html`, `privacy.html` |
-| Office addresses (India and USA) | `contact.html` |
+| Email addresses (`hello@`, `india@`, `singapore@`, `usa@`, `privacy@example.com`) | `partials/footer.html`, `contact.html`, `privacy.html` |
+| ~~Office addresses~~ (India and Singapore done) | USA address still a placeholder in `contact.html`; Singapore has no phone yet |
 | Social profile URLs (`href="#"`) | `partials/footer.html` |
 | CTA strip and footer blurb | `partials/cta.html`, `partials/footer.html` |
 | Privacy policy (template only, not legal advice) | `privacy.html` |
