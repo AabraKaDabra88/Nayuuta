@@ -46,11 +46,11 @@ To find every placeholder, run `grep -rn PLACEHOLDER --include=*.html --include=
 | Company overview, solutions and services card copy | `index.html`, `solutions.html`, `services.html` |
 | About page copy and stats (`00+`, `000+`) | `about.html` |
 | Testimonials: all 5 quotes, names, titles and headshots are fictional | `index.html` |
-| Email addresses (`hello@`, `india@`, `singapore@`, `usa@example.com`) | `partials/footer.html`, `contact.html`, `privacy.html` |
-| ~~Office addresses~~ (India and Singapore done) | USA address still a placeholder in `contact.html`; Singapore has no phone yet |
+| Email addresses (`hello@`, `india@`, `singapore@example.com`) | `partials/footer.html`, `contact.html`, `privacy.html` |
+| ~~Office addresses~~ (India and Singapore done) | Singapore has no phone yet |
 | Social profile URLs (`href="#"`) | `partials/footer.html` |
 | CTA strip and footer blurb | `partials/cta.html`, `partials/footer.html` |
 | ~~Privacy policy~~ (company text added) | Confirm `www.nayuuta.com` and `privacy@nayuuta.com` in `privacy.html` |
 | Contact form submission (**TODO**) | `submitForm()` in `assets/js/main.js` |
 
-The phone numbers (+91 8688403181, +1 214-699-4991) and WhatsApp links (`wa.me/918688403181`, `wa.me/12146994991`) are real. The header WhatsApp button uses the India number.
+The India phone number (+91 8688403181) and WhatsApp link (`wa.me/918688403181`) are real and used site-wide.
