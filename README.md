@@ -41,7 +41,7 @@ The site contains no placeholder content. A few things still need attention:
 | **Site address.** Canonical/OG tags, `sitemap.xml`, `robots.txt` and JSON-LD use `https://aabrakadabra88.github.io/Nayuuta/`. If you move to your own domain, find and replace that URL in all of them. | every page `<head>`, `sitemap.xml`, `robots.txt` |
 | **Review the site copy.** Hero slides, overview, card descriptions and About text were written as starter copy; check that claims fit your business. | `index.html`, `about.html`, `solutions.html`, `services.html` |
 | **Privacy policy contact.** Confirm `www.nayuuta.com` and `privacy@nayuuta.com` are correct. | `privacy.html` |
-| **Optional additions.** Emails, social profile links, a Singapore phone number and client testimonials were removed until real ones are available. | `partials/footer.html`, `contact.html`, `index.html` |
+| **Contact email.** `connect@nayuuta.com` is the only contact method (header, contact strip, footer, Contact page, JSON-LD). Phone numbers, WhatsApp, social links and testimonials were removed. | `partials/*.html`, `contact.html`, `index.html` |
 | **Image quality.** Several card images are only 550–610px wide; swap in larger originals when available. | `assets/images/*.jpg` |
 
-Logo: `assets/images/logo.svg` (light backgrounds) and `logo-light.svg` (dark header/footer). Images come from dalhyd.com (company-owned). The India phone number (+91 8688403181) and WhatsApp link (`wa.me/918688403181`) are used site-wide.
+Logo: `assets/images/logo.svg` (light backgrounds) and `logo-light.svg` (dark header/footer). Images come from dalhyd.com (company-owned).
