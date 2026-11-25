@@ -31,6 +31,10 @@ Each page contains a full copy of the header, footer and CTA strip, so the site 
 
 The script replaces everything between `<!-- PARTIAL:name -->` and `<!-- /PARTIAL:name -->` in each page, and highlights the current page in the nav using `<body data-page="...">`. Don't edit inside those markers in the page files, because your changes will be overwritten.
 
+## Hosting
+
+The site is hosted on GitHub Pages at **https://www.nayuuta.com** (custom domain set in the `CNAME` file and in the repo's Settings → Pages). Every push to `main` goes live within a few minutes. Canonical/OG tags, `sitemap.xml`, `robots.txt` and JSON-LD all use `https://www.nayuuta.com/`.
+
 ## Before launch
 
 The site contains no placeholder content. A few things still need attention:
@@ -38,7 +42,6 @@ The site contains no placeholder content. A few things still need attention:
 | What | Where |
 | --- | --- |
 | **Contact form isn't connected.** It validates and shows a success message but sends nothing yet. | `submitForm()` in `assets/js/main.js` |
-| **Site address.** Canonical/OG tags, `sitemap.xml`, `robots.txt` and JSON-LD use `https://aabrakadabra88.github.io/Nayuuta/`. If you move to your own domain, find and replace that URL in all of them. | every page `<head>`, `sitemap.xml`, `robots.txt` |
 | **Review the site copy.** Hero slides, overview, card descriptions and About text were written as starter copy; check that claims fit your business. | `index.html`, `about.html`, `solutions.html`, `services.html` |
 | **Privacy policy contact.** Confirm `www.nayuuta.com` and `privacy@nayuuta.com` are correct. | `privacy.html` |
 | **Contact email.** `connect@nayuuta.com` is the only contact method (header, contact strip, footer, Contact page, JSON-LD). Phone numbers, WhatsApp, social links and testimonials were removed. | `partials/*.html`, `contact.html`, `index.html` |

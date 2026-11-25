@@ -3,4 +3,4 @@ Allow: /
 Disallow: /partials/
 Disallow: /scripts/
 
-Sitemap: https://aabrakadabra88.github.io/Nayuuta/sitemap.xml
+Sitemap: https://www.nayuuta.com/sitemap.xml
