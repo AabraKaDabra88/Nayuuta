@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 15 90 90">
-  <!-- Favicon: the N mark from logo.svg -->
-  <rect x="10" y="15" width="90" height="90" rx="18" fill="#1F4E79"/>
-  <rect x="28" y="34" width="10" height="52" fill="#FFFFFF"/>
-  <polygon points="28,34 40,34 72,74 72,86 60,86 28,46" fill="#FFFFFF"/>
-  <rect x="72" y="34" width="10" height="52" fill="#FFFFFF"/>
-  <circle cx="90" cy="26" r="7" fill="#2BB3A3"/>
-</svg>
