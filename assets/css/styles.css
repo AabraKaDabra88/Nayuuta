@@ -209,11 +209,11 @@ body.nav-open .site-header {
   flex: none;
 }
 /* Stacked logo (name below the symbol), ~2:1; height drives the size */
-.logo img { height: 56px; width: auto; }
-.site-footer .logo img { height: 80px; }
+.logo img { height: 60px; width: auto; }
+.site-footer .logo img { height: 96px; }
 @media (min-width: 75em) {
   :root { --header-h: 88px; }
-  .logo img { height: 66px; }
+  .logo img { height: 72px; }
 }
 
 /* Hamburger */
