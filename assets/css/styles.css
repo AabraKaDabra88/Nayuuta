@@ -37,7 +37,7 @@
   --radius-sm: 8px;
   --shadow: 0 6px 24px rgba(14, 42, 71, 0.08);
   --shadow-lg: 0 16px 40px rgba(14, 42, 71, 0.16);
-  --header-h: 72px;
+  --header-h: 76px;
   --transition: 200ms ease;
 }
 
@@ -208,9 +208,13 @@ body.nav-open .site-header {
   align-items: center;
   flex: none;
 }
-/* Logo SVG is 420x120 (3.5:1); height drives the size */
-.logo img { height: 44px; width: auto; }
-.site-footer .logo img { height: 48px; }
+/* Stacked logo (name below the symbol), ~2:1; height drives the size */
+.logo img { height: 56px; width: auto; }
+.site-footer .logo img { height: 80px; }
+@media (min-width: 75em) {
+  :root { --header-h: 88px; }
+  .logo img { height: 66px; }
+}
 
 /* Hamburger */
 .nav-toggle {
